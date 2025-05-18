@@ -41,7 +41,7 @@ class GmailAttachmentsDownloader:
 
         self.parse_emails()
 
-        print(f"✅ All done! Attachments saved in: {self.dest_folder}")
+        print(f"✅ \033[32mAll done! Attachments saved in: {self.dest_folder}\033[0m")
 
     def initialize_variables(self):
         self.usr = ""
