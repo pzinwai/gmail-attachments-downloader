@@ -5,7 +5,7 @@ import sys
 import getpass
 import time
 
-class GmailAttachmentDownloader:
+class GmailAttachmentsDownloader:
     def __init__(self):
         self.initialize_variables()
         self.hello()
@@ -56,7 +56,7 @@ class GmailAttachmentDownloader:
         self.search_keyword = None
 
     def hello(self):
-        print("\n📥 Welcome to Gmail Attachment Downloader")
+        print("\n📥 Welcome to Gmail Attachments Downloader")
         print("\n🛠️ Developed by Phyo Zin Wai\n")
 
     def get_login(self):
@@ -134,7 +134,7 @@ class GmailAttachmentDownloader:
 
 if __name__ == "__main__":
     try:
-        run = GmailAttachmentDownloader()
+        run = GmailAttachmentsDownloader()
     except KeyboardInterrupt:
         print("\n\n🛑 Program interrupted by user.")
         sys.exit(0)
